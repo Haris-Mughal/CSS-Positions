@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bd8e51;
+    color: #08222d;
+}
+
+header.nav {
+    height: 60px;
+    background-color: #271702;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 15px 25px, rgba(255, 255, 255, 0.05) 0px 5px 10px;
+}
+
+header nav a {
+    color: #f4dfc3;
+    text-decoration: none;
+    line-height: 60px;
+    display: inline-block;
+    padding: 0 24px;
+}
+
+header nav a:hover {
+    background-color: #f4dfc3;
+    color: #271702;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #271702;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+
+
+footer p ,
+footer a {
+    color: #f4dfc3;
+    background-color: #271702;
+    text-decoration: none;
+    line-height: 60px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+footer a {
+    padding: 0 24px;
+
+}
+
+footer a:hover {
+    background-color: #f4dfc3;
+    color: #271702;
+    font-weight: bold;
+
+}
+
+footer p {
+    padding: 0 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

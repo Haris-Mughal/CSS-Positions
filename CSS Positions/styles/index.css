@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: left;
+    
+}
+
+a {
+    background-color: #271702;
+    color: #bd8e51;  
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 42px;
+    padding: 5px 30px;
+}
+
+a:hover {
+    color: #271702;
+    background-color: #f4dfc3;  
+    /* font-weight: bold;
+    font-size: 42px; */
+}
+
+body {
+    background-color: #bd8e51;  
+    color: #271702;
+}
+
+#parent {
+    border: 3px solid #271702;
+    width: 60%;
+    margin: 100px auto 50px;
+    padding: 25px;
+    position: relative;
+    /* position >> relative .......
+    parent ko iss liye dia ha ka jab
+     "div element with position:Relative"
+     walay box ko >"position:Relative"< 
+     wali command deni ha to us na issay
+      apna parent maan lena ha*/
+    
+    height: 100vh;
+    
+
+}
+
+.div {
+    border: 2px solid rgb(8, 44, 3);
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+
+}
+
+p {
+    margin-bottom: 20px;
+
+}
+
+.div-static {
+    background-color: red;
+    position: static;
+    top: 0;
+}
+
+.div-relative {
+    background-color: green;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+.div-fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* "Position fixed" se box scroll krtay huay
+    musalsal screen per nazar ata rahay ga. */
+}
+
+.div-absolute {
+    background-color: rgba(0, 0, 255, 0.8);
+    /* iss ki opacity kam ki ha... ku ka 
+    "Parent Box" show ni ho raha tha.*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* "Position absolute" se box scroll krtay huay
+    screen per nazar ni aya ga aik hi jagha rahay ga. */
+}
+
+.div-sticky {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    /* Agar issay "top 0" de do to ya sirf 
+    apnay parent ka sath hi rahay ga ... or
+    "Parent Box" ka ilawa kahi nazar ni aye ga.. */
+}
+
+footer p {
+    margin-top: 36px;
+}
