@@ -22,8 +22,6 @@
         <div class="div div-absolute">Div Element with Position : Absolute</div>
         <div class="div div-sticky">Div Element with Position : Sticky</div>
       </div>
-
-  <br />
     <br /><br />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel dicta
